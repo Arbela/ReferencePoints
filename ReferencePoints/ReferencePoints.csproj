@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <ApplicationIcon>Graphicloads-100-Flat-2-Point.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Graphicloads-100-Flat-2-Point.ico" />
+    </ItemGroup>
+
+
+
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+      <PackageReference Include="MediaToolkit" Version="1.1.0.1" />
+      <PackageReference Include="System.Drawing.Common" Version="8.0.0-preview.7.23375.5" />
+
+
+
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+</Project>
